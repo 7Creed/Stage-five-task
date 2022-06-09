@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+.swiper {
+    width: 100%;
+    /* height: 600px; */
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+.hs-1 {
+    background: url(../img/home-slide-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hs-1 .row, .hs-2 .row, .hs-3 .row {
+    height: 600px;
+    align-content: center;
+}
+
+.hs-2 {
+    background: url(../img/home-slide-2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hs-3 {
+    background: url(../img/home-slide-3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.cb {
+    transition: all 0.5s ease;
+}
+.cb:hover {
+    background-color: #0eb582 !important;
+    color: white !important;
+    cursor: pointer;
+    border: none;
+}
+
+.container-1 {
+    width: 90% !important; 
+    margin: auto;
+}
+
+#our-courses {
+    background: url(../img/heading-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.foot .link {
+    display: block;
+}
+
+.link:hover {
+    text-decoration: underline !important;
+    color: #0eb582 !important;
+}
+
+.like {
+    background: ;
+}
+
+.like:hover {
+
+}
+.swiper2 {
+    /* height: 70vh; */
+}
+
+.arrow:hover {
+    color: #0eb582 !important;
+}
+
+.txt {
+    color: #0eb582 !important;
+}
+
+
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    /* box-shadow: 0 0 5px 0 #0eb582; */
+}
+
+.courses .swiper-slide, #experts .swiper-slide .card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.courses .content, #experts .content {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -300px;
+}
+
+.courses .swiper-slide:hover .content, #experts .swiper-slide:hover .content {
+    transition: all ease-in-out .5s;
+    bottom: 0;
+}
+
+.courses .content .btn:hover, #experts .swiper-slide:hover img {
+    background-color: #0eb582;
+    transition: all ease-in-out 1s;
+}
+
+#experts .content a:hover i {
+    color: #0eb582;
+}
+
+.topp {
+    /* width: 35%; */
+    position: absolute;
+    top: 15px; left: 10px;
+    font-size: 14px;
+}
+
+#review .testimony p::before {
+    content: "";
+    position: absolute;
+    bottom: -1.2rem;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+#famous-courses .card:hover .card-body img {
+    transform: scale(1.06);
+}
+
+#famous-courses .card .card-body img {
+    transition: all ease-in-out .2s;
+}
+
+/* .border-top {
+    border-color: #0eb582 !important;
+} */
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+.form-control:focus {
+    background-color: #0eb582; 
+    color: #fff !important;
+}
+.form-control:focus + .holder {
+    color: #fff !important;
+}
+
+.courses .card {
+    background-color: rgb(240, 253, 250);
+    /* position: relative; */
+    /* transition: all 2s ease; */
+}
+
+/* .courses .card::before {
+    content: "";
+    width: 100%;
+    height: 40%;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+    background-color: rgb(14, 131, 14);
+    z-index: 5;
+    transform: translate(-0%, -0%);
+    transition: all 0.7s ease;
+} */
+
+/* .courses .card:hover::before {
+    height: 40%;
+} */
+.cap {
+   /* display: none; */
+}
+
+/* .cap::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+    background-color: rgb(240, 247, 240);
+    z-index: 5;
+    transform: translate(-0%, -0%);
+    font-size: 25px;
+    z-index: 50;
+} */
+
+
+/* mobile view */
+@media (max-width: 426px) {
+
+    #navigation {
+        position: absolute;
+    }
+
+    .navbar .container-fluid {
+        padding: 5px 10px !important;
+    }
+    /* .hs-1 {
+        background: url(../img/home-slide-1.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+    } */
+    
+    /* .hs-2 {
+        background: url(../img/home-slide-2.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+     */
+    /* .hs-3 {
+        background: url(../img/home-slide-3.jpg);
+        background-size: cover;
+        background-position: center;
+    } */
+
+    #subjects {
+        padding-top: 20px;
+    }
+    .head h5 {
+        font-size: 18px !important;
+       
+    }
+
+
+
+}
